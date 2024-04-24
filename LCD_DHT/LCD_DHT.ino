@@ -14,8 +14,10 @@ const int trigPin = 5; //white wire
 const int echoPin = 18; //yellow wire
 const int buzzerPin = 15;
 
-const int moisturePin = 23;
+const int moisturePin = 14;
 int soilMoisture;
+
+int motorControlPin = 23;
 
 //define sound speed in cm/uS
 #define SOUND_SPEED 0.034
@@ -33,6 +35,10 @@ void setup() {
   Serial.begin(9600);
   Serial.println(F("DHTxx test!"));
 
+  pinMode(motorControlPin, OUTPUT);
+  digitalWrite(motorControlPin, LOW);
+
+  pinMode(moisturePin, INPUT);
   pinMode(buzzerPin, OUTPUT);
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an Input
@@ -45,7 +51,7 @@ void setup() {
 
 void loop() {
   // Wait a few seconds between measurements.
-  delay(4000);
+  delay(2000);
 
   // Reading temperature or humidity takes about 250 milliseconds!
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
@@ -80,7 +86,7 @@ void loop() {
 
   //Serial.print("Humidity: " + String(h) + "%");
   //Serial.println("Temperature: " + String(t));
-  delay(4000);
+  delay(1000);
   lcd.clear();
 
 
@@ -123,18 +129,20 @@ void loop() {
     digitalWrite(buzzerPin, LOW);
   }
 
-  soilMoisture = digitalRead(moisturePin);  
-  // Serial.println("Soil Moisture : " + soilMoisture);
+  soilMoisture = analogRead(moisturePin);  
+  Serial.println("Soil Moisture : " + String(soilMoisture));
 
-  if (soilMoisture < 2000) {
+  if (soilMoisture < 3000) {
     Serial.println("Soil is wet!");
 
+    digitalWrite(motorControlPin, LOW); //turns off the motor
     lcd.setCursor(0, 0);
     lcd.print("Soil is Wet");
   }
   else {
     Serial.println("Soil is dry!");
 
+    digitalWrite(motorControlPin, HIGH); //turns on the motor
     lcd.setCursor(0, 0);
     lcd.print("Soil is Dry");
   }
