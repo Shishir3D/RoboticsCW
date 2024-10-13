@@ -114,18 +114,48 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
 ### Test Cases
 Test cases were run to verify the connections and functionality of the system. Below are the successful tests:
 
-1. **ESP32 and DHT11** - Successfully reads temperature and humidity.  
-   ![Test Case 1](link-to-figure-42)
-
+1. **ESP32 and DHT11** - Successfully reads temperature and humidity.
+    <table>
+    <tr>
+      <th>Test 1</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture1.png" alt="Code" width="300"/></td>
+    </tr>
+    </table>  
 
 3. **ESP32, DHT11, and LCD** - Temperature and humidity displayed correctly.  
-   ![Test Case 2](link-to-figure-43)
+    <table>
+    <tr>
+      <th>Test 2</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture5.png" alt="Physical Image" width="300"/></td>
+    </tr>
+    </table>
 
-4. **Buzzer and Ultrasonic Sensor** - Buzzer alerts at correct distance.  
-   ![Test Case 3](link-to-figure-44)
+5. **Buzzer and Ultrasonic Sensor** - Buzzer alerts at correct distance.  
+    <table>
+    <tr>
+      <th>Test 3</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture8.png" alt="Physical Image" width="300"/></td>
+    </tr>
+    </table>
 
-5. **Water Pump Automation** - Water pump activates below 30% soil moisture.  
-   ![Test Case 5](link-to-figure-46)
+
+6. **Water Pump Automation** - Water pump activates below 30% soil moisture.  
+    <table>
+    <tr>
+      <th>Physical Image</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture14.png" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture13.png" alt="Code" width="300"/></td>
+    </tr>
+    </table>
 
 ### Future Improvements
 - **Capacitive moisture sensors** for better durability.
