@@ -175,4 +175,11 @@ Test cases were run to verify the connections and functionality of the system. B
 
 ### Final System Images
 ![Smart Plant Monitoring System](https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture19.png)
-![Blynk Mobile Dashboard](https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture20.png)
+<table>
+  <tr>
+    <th>Blynk Mobile Dashboard</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture20.png" alt="Circuit Diagram" width="300"/></td>
+  </tr>
+</table>
