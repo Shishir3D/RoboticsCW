@@ -33,9 +33,17 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
     <th>Flowchart</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture21.png" alt="Hardware Architecture" width="300"/></td>
-    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture22.png" alt="Circuit Diagram" width="300"/></td>
-    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture23.png" alt="Flowchart" width="300"/></td>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture21.png" alt="Hardware Architecture" width="450"/></td>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture22.png" alt="Circuit Diagram" width="450"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Flowchart</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture23.png" alt="Flowchart" width="450"/></td>
   </tr>
 </table>
 
