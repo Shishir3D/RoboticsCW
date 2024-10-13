@@ -54,16 +54,62 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
 
   
 - **Connection of ESP32, DHT11, and LCD Display**  
-  ![ESP32 DHT11 and LCD Display](link-to-figure-25)
+    <table>
+    <tr>
+      <th>Circuit Diagram</th>
+      <th>Physical Image</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture6.png" alt="Circuit Diagram" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture5.png" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture4.png" alt="Code" width="300"/></td>
+    </tr>
+    </table>
+
 
 - **Buzzer and Ultrasonic Sensor Connection**  
-  ![Buzzer and Ultrasonic Sensor Connection](link-to-figure-28)
+    <table>
+    <tr>
+      <th>Circuit Diagram</th>
+      <th>Physical Image</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture9.png" alt="Circuit Diagram" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture8.png" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture7.png" alt="Code" width="300"/></td>
+    </tr>
+    </table>
 
 - **Connecting ESP32, Soil Moisture Sensor, LCD, and Water Pump**  
-  ![Soil Moisture Sensor and Water Pump Connection](link-to-figure-34)
+    <table>
+    <tr>
+      <th>Circuit Diagram</th>
+      <th>Physical Image</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture15.png" alt="Circuit Diagram" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture14.png" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture13.png" alt="Code" width="300"/></td>
+    </tr>
+    </table>
+
 
 - **Final Connection with Blynk**  
-  ![Blynk Setup](link-to-figure-40)
+    <table>
+    <tr>
+      <th>Circuit Diagram</th>
+      <th>Physical Image</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture18.png" alt="Circuit Diagram" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture17.png" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture16.png" alt="Code" width="300"/></td>
+    </tr>
+    </table>
 
 ### Test Cases
 Test cases were run to verify the connections and functionality of the system. Below are the successful tests:
