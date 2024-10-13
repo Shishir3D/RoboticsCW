@@ -30,11 +30,11 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
 ![Hardware Architecture](https://github.com/user-attachments/assets/dc4703c7-c4da-49fa-9244-440d5b4cae7e)
 
 #### Circuit Diagram
-![Circuit Diagram]([link-to-figure-5](https://github.com/user-attachments/assets/10d4aabc-6a0e-428e-850e-0015c3c224e5))
+![Circuit Diagram](https://github.com/user-attachments/assets/10d4aabc-6a0e-428e-850e-0015c3c224e5)
 
 
 #### Flowchart
-![Flowchart]([link-to-figure-6](https://github.com/user-attachments/assets/5c82832a-6ec0-4415-ae73-c8b670b9315b))
+![Flowchart](https://github.com/user-attachments/assets/5c82832a-6ec0-4415-ae73-c8b670b9315b)
 
 
 ### System Development
