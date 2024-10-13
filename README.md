@@ -30,7 +30,6 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
   <tr>
     <th>Hardware Architecture</th>
     <th>Circuit Diagram</th>
-    <th>Flowchart</th>
   </tr>
   <tr>
     <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture21.png" alt="Hardware Architecture" width="450"/></td>
