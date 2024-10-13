@@ -46,9 +46,9 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
       <th>Code</th>
     </tr>
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/a6010fcf-5b4a-4a8a-be10-6fa1b87f24f3" alt="Circuit Diagram" width="300"/></td>
-      <td><img src="https://github.com/user-attachments/assets/960f7cd9-378f-46e1-a703-8fe7f83d09a9" alt="Physical Image" width="300"/></td>
-      <td><img src="https://github.com/user-attachments/assets/c98daa78-2555-43a2-a107-d90638a3c377" alt="Code" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture3.png" alt="Circuit Diagram" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture2.png" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture1.png" alt="Code" width="300"/></td>
     </tr>
     </table>
 
