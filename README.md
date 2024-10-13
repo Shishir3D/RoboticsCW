@@ -26,15 +26,18 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
 
 ### Circuit Diagrams and Flowcharts
 
-#### Hardware Architecture
-![Hardware Architecture](https://github.com/user-attachments/assets/dc4703c7-c4da-49fa-9244-440d5b4cae7e)
-
-#### Circuit Diagram
-![Circuit Diagram](https://github.com/user-attachments/assets/10d4aabc-6a0e-428e-850e-0015c3c224e5)
-
-
-#### Flowchart
-![Flowchart](https://github.com/user-attachments/assets/5c82832a-6ec0-4415-ae73-c8b670b9315b)
+<table>
+  <tr>
+    <th>Hardware Architecture</th>
+    <th>Circuit Diagram</th>
+    <th>Flowchart</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture21.png" alt="Hardware Architecture" width="300"/></td>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture22.png" alt="Circuit Diagram" width="300"/></td>
+    <td><img src="https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture23.png" alt="Flowchart" width="300"/></td>
+  </tr>
+</table>
 
 
 ### System Development
@@ -164,5 +167,5 @@ Test cases were run to verify the connections and functionality of the system. B
 - **Sprinkler system** to automate watering for larger areas.
 
 ### Final System Images
-![Smart Plant Monitoring System](link-to-figure-47)
-![Blynk Mobile Dashboard](link-to-figure-48)
+![Smart Plant Monitoring System](https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture19.png)
+![Blynk Mobile Dashboard](https://github.com/Shishir3D/RoboticsCW/blob/main/docs_images/Picture20.png)
