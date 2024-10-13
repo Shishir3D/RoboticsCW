@@ -39,7 +39,19 @@ This project is a **Smart Plant Monitoring System** developed using an **ESP32**
 
 ### System Development
 - **ESP32 and DHT11 Connection**  
-  ![Connection of ESP32 and DHT11](link-to-figure-21)
+    <table>
+    <tr>
+      <th>Circuit Diagram</th>
+      <th>Physical Image</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/a6010fcf-5b4a-4a8a-be10-6fa1b87f24f3" alt="Circuit Diagram" width="300"/></td>
+      <td><img src="https://github.com/user-attachments/assets/960f7cd9-378f-46e1-a703-8fe7f83d09a9" alt="Physical Image" width="300"/></td>
+      <td><img src="https://github.com/user-attachments/assets/c98daa78-2555-43a2-a107-d90638a3c377" alt="Code" width="300"/></td>
+    </tr>
+    </table>
+
   
 - **Connection of ESP32, DHT11, and LCD Display**  
   ![ESP32 DHT11 and LCD Display](link-to-figure-25)
@@ -59,13 +71,14 @@ Test cases were run to verify the connections and functionality of the system. B
 1. **ESP32 and DHT11** - Successfully reads temperature and humidity.  
    ![Test Case 1](link-to-figure-42)
 
-2. **ESP32, DHT11, and LCD** - Temperature and humidity displayed correctly.  
+
+3. **ESP32, DHT11, and LCD** - Temperature and humidity displayed correctly.  
    ![Test Case 2](link-to-figure-43)
 
-3. **Buzzer and Ultrasonic Sensor** - Buzzer alerts at correct distance.  
+4. **Buzzer and Ultrasonic Sensor** - Buzzer alerts at correct distance.  
    ![Test Case 3](link-to-figure-44)
 
-4. **Water Pump Automation** - Water pump activates below 30% soil moisture.  
+5. **Water Pump Automation** - Water pump activates below 30% soil moisture.  
    ![Test Case 5](link-to-figure-46)
 
 ### Future Improvements
